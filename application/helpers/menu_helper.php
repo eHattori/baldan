@@ -53,6 +53,7 @@ if( ! function_exists("get_menu_portal")){
 			"empresacontroller" 	=> "Empresa",
 			"produtoscontroller"	=> "Produtos",
 			"galeriacontroller"		=> "Galeria",
+			"utilidadecontroller"   => "Utilidades",
 			"contatocontroller" 	=> "Contatos",
 		);
 		$controller	= isset($ci->uri->segments[1]) ? $ci->uri->segments[1] : "maincontroller";

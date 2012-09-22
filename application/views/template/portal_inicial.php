@@ -53,7 +53,7 @@
 						</a>
 					</section>
 					<section class="col5 pad_left1">
-						<h3>Ligue Agora: <span>(16) 3251-1411</span></h3>
+						<h3>Ligue Agora:<span>(16) 3251-9800</span></h3>
 						Av. 9 de Julho, nº 836 - Centro - Guariba/SP<br><br>
                         Desenvolvido por EC9 
 					</section>

@@ -4,7 +4,7 @@
 	
 	define("_cfg_server_bco", "localhost");
 	define("_cfg_user_bco"	, "root");
-	define("_cfg_pass_bco"	, "");
+	define("_cfg_pass_bco"	, "123");
 	define("_cfg_database"	, "baldan");
 	
 // desabilita login	

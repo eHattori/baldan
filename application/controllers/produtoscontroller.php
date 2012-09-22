@@ -6,7 +6,7 @@ class ProdutosController extends EC9_Base{
 		$this->load->model("CategoriaModel", "model_categoria");
 	}
 
-	function index(){
+	function index(){		
 		$this->template->set_template("public");
 		if(isset($_SESSION['idioma'])){
 			$idioma = $_SESSION['idioma'];
@@ -14,9 +14,9 @@ class ProdutosController extends EC9_Base{
 			$this->load->model("idiomamodel");
 			$firstLanguage 	= $this->idiomamodel->getFirstLanguage();
 			$idioma 		= @$firstLanguage->idioma_id;
-		}
+		}		
 		$categorias = $this->model_categoria->get_categorias_idioma($idioma);
-		$this->load->library('ec9_pagination');
+		$this->load->library('EC9_Pagination');		
 
 		$queryString			= parse_url($_SERVER['REQUEST_URI']);
 		@parse_str($queryString['query'], $params);

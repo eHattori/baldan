@@ -183,14 +183,14 @@ header {
 }
 
 #menu {
-	width: 633px;
+	width: 665px;
 	float: right;
 	padding: 50px 0 0 0
 }
 
 #menu li {
 	float: left;
-	padding-left: 3px
+	padding-left: 3px	
 }
 
 #menu li a {
@@ -198,7 +198,7 @@ header {
 	font-size: 24px;
 	color: #faf3ed;
 	line-height: 40px;
-	padding: 0 20px;
+	padding: 0 18px;
 	height: 44px;
 	letter-spacing: -1px
 }
@@ -975,4 +975,12 @@ a.thumbnail:hover {
 
 .pad_bottom_30{
 	padding-bottom: 30px;
+}
+
+#ul_utilidade li{
+	margin-bottom: 10px;
+}
+
+#ul_utilidade li img{
+	vertical-align: middle;
 }
