@@ -1,0 +1,101 @@
+.col1, .col2, .col3, .cols , .col4 {float:left}
+.cols {width:300px}
+.col1 {width:630px}
+.col2 {width:250px}
+.col3 {width:570px}
+.col4 {width:670px}
+.col5 {width:261px; float: left;}
+/* index.html */
+/* index-1.html */
+#page2 .box .list1 {margin-top:-7px}
+/* index-2.html */
+#page3 h2.letter_spacing {word-spacing:-2px}
+/* index-3.html */
+#page4 .box .list1 {margin-top:-7px}
+#page4 h2.pad_bot1 {padding-bottom:5px}
+/* index-4.html */
+#page5 .box > div {background: url(../img/box_top2.png) top center no-repeat}
+#page5 #content2 h2 {padding-bottom:4px}
+/* index-5.html */
+/* index-6.html */
+ 
+ #categorias label{
+ 	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #000000;
+ }
+ 
+ #categorias a{
+	text-transform: uppercase; 
+ }
+
+ .blogBox, .rlBox, .productList, .mailOffer, .service, div.sMenu, .fProd, .brandList, .bestSellers, .deptSearch, .hlProd, .showBox, .sHlProd, .carouselBox, .headerHotsite, .lArtNameBox, .wBox, .bBuster, .aViag, .iCom, .pLw, .pag, .destaqList, .allCat .seeAlso, .allCat .services, .rSearchNull p {
+    margin-bottom: 10px;
+}
+.grid {
+    clear: both;
+    text-align: justify;
+}
+.grid, .list, .pList {
+    overflow: hidden;
+}
+ 
+ .box01 {
+    padding: 3px 10px 10px 15px;
+}
+
+.blogBox, .rlBox, .productList, .mailOffer, .service, div.sMenu, .fProd, .brandList, .bestSellers, .deptSearch, .hlProd, .showBox, .sHlProd, .carouselBox, .headerHotsite, .lArtNameBox, .wBox, .bBuster, .aViag, .iCom, .pLw, .pag, .destaqList, .allCat .seeAlso, .allCat .services, .rSearchNull p {
+    margin-bottom: 10px;
+}
+.showBox {
+    border-top: medium none;
+}
+.showBox02 {
+    text-align: center;
+}
+.showBox {
+    border-top: medium none;
+}
+
+.pList, .pList .li {
+    line-height: 0;
+}
+.grid, .list, .pList {
+    overflow: hidden;
+}
+ul {
+    list-style: none outside none;
+}
+
+.grid .box01 .prods .pList .li {
+    width: 30.5%;
+}
+.grid .prods .li {
+    margin: -1px -2501px 1px 0;
+    padding: 25px 2500px 25px 0;
+    width: 170px;
+}
+.list .prods .li, .grid .prods .li {
+    border-top: 1px solid #DDDDDD;
+    margin: -1px -1px 1px;
+    padding: 25px 0;
+}
+.grid .li {
+    display: inline-block;
+    vertical-align: top;
+}
+.pList, .pList .li {
+    line-height: 0;
+}
+
+.grid .hproduct {
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: left;
+    width: 150px;
+}
+
+.cont{
+	display: block;
+	margin-top: 15px;
+}
