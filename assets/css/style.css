@@ -599,7 +599,8 @@ alert-danger,.alert-error {
 	border-bottom: 1px dotted #2E2304;
 	list-style-type: none;
 	width: 80%;
-	padding: 4px 30px 4px 0px;
+	padding: 4px 30px 4px 4px;
+    margin-left: 7px;
 	text-align: right;
 	padding: 4px 30px 4px 0px;
 }
@@ -627,17 +628,24 @@ alert-danger,.alert-error {
 	margin: 15px 0px 15px 0px;
 	text-align: center;
 }
-
-.paginacao a,.paginacao strong {
+.paginacao ul{
+    list-style: none;
+}
+.paginacao ul li{
+    margin: 0 3px;
+    display: inline;
+}
+.paginacao .active{
+    padding: 6px 0px;
+    background: url(../img/menu_bg.png) repeat
+}
+.paginacao a{
 	padding: 6px;
 	text-decoration: none;
 }
 
-.paginacao strong {
-	background: url(../img/menu_bg.png) repeat
-}
-
 .paginacao a:hover {
+    padding: 6px;
 	background: url(../img/menu_bg.png) repeat
 }
 

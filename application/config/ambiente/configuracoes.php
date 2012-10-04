@@ -2,10 +2,10 @@
 
 // configurações banco
 	
-	define("_cfg_server_bco", "localhost");
-	define("_cfg_user_bco"	, "root");
-	define("_cfg_pass_bco"	, "123");
-	define("_cfg_database"	, "baldan");
+	define("_cfg_server_bco", "186.202.152.32");
+	define("_cfg_user_bco"	, "baldan2");
+	define("_cfg_pass_bco"	, "b@ld@n1411");
+	define("_cfg_database"	, "baldan2");
 	
 // desabilita login	
 	define("_not_login", false);

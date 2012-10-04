@@ -20,7 +20,7 @@ class ProdutosController extends EC9_Base{
 
 		$queryString			= parse_url($_SERVER['REQUEST_URI']);
 		@parse_str($queryString['query'], $params);
-		$params['limit']		= 10;
+		$params['limit']		= 4;
 		$params['idioma'] 		= $idioma;
 		$params['offset']		= $this->uri->segment(3) ? $this->uri->segment(3) : '';
 		$config['base_url']   	= site_url()."produtoscontroller/index/";
