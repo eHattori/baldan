@@ -175,8 +175,8 @@ class ProdutoController extends ControladorBaseAdmin{
 			foreach($produto->especificacoes as $item){
 				$array = array(
 					"id" 			=> $item->especificacao_id,
-					"descricao_esp"	=> htmlspecialchars($item->texto),
-					"texto"			=> htmlspecialchars($item->valor)
+					"descricao_esp"	=> htmlspecialchars(escape_json($item->texto)),
+					"texto"			=> htmlspecialchars(escape_json($item->valor))
 				);
 				$especificacoes[] = $array;
 			}

@@ -98,3 +98,11 @@ if( ! function_exists("retorna_nome_video_youtube")){
 		return substr($str, (strpos($str, "=") + 1));
 	}
 }
+
+if( ! function_exists("escape_json")){
+    function escape_json($str){
+        $new    = array("&#34;", "&#39;");
+        $old    = array("'", '"');
+        return str_replace($old, $new, $str);
+    }
+}
