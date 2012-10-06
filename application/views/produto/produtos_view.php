@@ -13,9 +13,9 @@
 				</div>
 				<div id="categorias" class='menu_produtos'>
 					<ul>
-						<?php  foreach(@$categorias as $cat):?>
+						<?php  foreach(@$categorias as $cat){?>
 						<li><a href="<?php echo site_url("produtoscontroller/index/?categoria=".$cat->categoria_id)?>"><?php echo $cat->texto; ?></a></li>
-						<?php endforeach;?>
+						<?php }?>
 					</ul>
 				</div>
 				<div class="menu_produtos_bottom"></div>
@@ -30,13 +30,14 @@
 							<?php if($produtos){ ?>
 								<?php foreach (@$produtos as $prod){?>
 									<a title="<?php echo $prod->texto?>" href="<?php echo site_url()."produtoscontroller/visualizar/".$prod->produto_id; ?>">
+
 										<section class="cols box_image_produto">
 											<div class="box">
 												<div>
-													<h2 class="letter_spacing"><?php echo htmlspecialchars($prod->texto)?></h2>
+													<h3 class="letter_spacing"><?php echo htmlspecialchars($prod->texto)?></h3>
 													<figure>
 														<?php if($prod->arquivo){?>
-														<img width="250px" height="180px" class="photo" src="<?php echo url_arquivos("produtos/".$prod->arquivo);?>" alt="<?php echo $prod->texto;?>">
+														<img width="250px" height="141px" class="photo" src="<?php echo url_arquivos("produtos/".$prod->arquivo);?>" alt="<?php echo $prod->texto;?>">
 														<?php }?>
 													</figure>
 													<p class="pad_bot1"><?php echo htmlspecialchars($prod->categoria)?></p>

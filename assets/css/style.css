@@ -589,7 +589,11 @@ alert-danger,.alert-error {
 	width: 249px;
 	font-weight: bold;
 	min-height: 130px;
+    max-height: 350px;
+    overflow-x: hidden;
+    overflow-y: scroll;
 	margin-left: 1px;
+    scroll-face-color: black;
 }
 
 .menu_produtos li {
@@ -622,6 +626,9 @@ alert-danger,.alert-error {
 .box_image_produto {
 	padding-left: 20px;
 	margin-bottom: 20px;
+}
+.box_image_produto h3{
+    color: #930;
 }
 
 .paginacao {

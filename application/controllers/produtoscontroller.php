@@ -40,6 +40,9 @@ class ProdutosController extends EC9_Base{
 						"produtos"   =>$produtos,
 						"paginacao"  =>$paginacao);
 
+        $this->template->add_css("jquery-jscrollpane.css");
+        $this->template->add_js("plugins/jquery.jscrollpane.min.js");
+        $this->template->add_js("scripts/produto/produto_menu.js");
 		$this->template->write_view("conteudo", "produto/produtos_view", $dados);
 		$this->template->render();
 	}

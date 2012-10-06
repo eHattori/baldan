@@ -46,7 +46,7 @@
 				<div class="wrapper">
 					<section class="col1">
 						<br><br><br>
-						<a href="https://www.cartaobndes.gov.br/cartaobndes/" target="blank"><img hspace="0" border="0" align="absbiddle" src="<?php echo base_url()."assets/img/bnds.png";?>" alt="" height="80" width="auto"></a>
+						<a href="https://www.cartaobndes.gov.br/cartaobndes/" target="blank"><img hspace="0" width="523px" height="80" border="0" align="absbiddle" src="<?php echo base_url()."assets/img/bnds.png";?>" alt="" height="80" width="auto"></a>
 					</section>
 					<section class="col5 pad_left1">
 						<h3>Ligue Agora:<span>(16) 3251-9800</span></h3>
