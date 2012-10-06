@@ -26,6 +26,14 @@
     background: red;
 }
 
+.jspArrowUp{
+    background: url("../img/arrow_up.png") no-repeat !important;
+}
+
+.jspArrowDown{
+    background: url("../img/arrow_down.png") no-repeat !important;
+}
+
 .jspHorizontalBar
 {
     position: absolute;
