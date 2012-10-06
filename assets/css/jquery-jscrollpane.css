@@ -61,7 +61,7 @@
 
 .jspDrag
 {
-    background: rgb(223, 214, 175);
+    background: rgb(210, 193, 147);
     position: relative;
     top: 0;
     left: 0;
@@ -86,7 +86,7 @@
 .jspArrow.jspDisabled
 {
     cursor: default;
-    background: rgb(223, 214, 175);
+    background: rgb(210, 193, 147);
 }
 
 .jspVerticalBar .jspArrow
